@@ -37,6 +37,9 @@
 #  made this a major version change, as we broke backward compatibility anyway
 #  (see last change in v1.10). got complaints that rightfully pointed out
 #  that should only come w/ a major version change. so, here we go ;)
+#  if your backend stops working w/ this version create a new profile and
+#  export the env vars needed as described in the comments of the conf file
+#  directly above the SOURCE setting.
 #  - making sure multi spaces in TARGET survive awk processing
 #  - new env var PROFILE exported to scripts 
 #  - fix 102: expose a unique timestamp variable for pre/post scripts
